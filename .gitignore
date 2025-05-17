@@ -9,6 +9,7 @@ build/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea
 allure-results
 *.iws
 *.iml
@@ -21,6 +22,8 @@ out/
 .apt_generated
 .classpath
 .factorypath
+.gitattributes
+.gitignore
 .project
 .settings
 .springBeans
