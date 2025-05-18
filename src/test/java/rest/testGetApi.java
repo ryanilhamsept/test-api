@@ -10,9 +10,8 @@ public class testGetApi  {
     @Test
     public void getApiresponse(){
         var Res = getAPI.testGetApi();
-
         Assert.assertEquals(Res.getStatusCode(),200);
-        System.out.println("Checking Schema Should be True");
+        System.out.println(Res.asString());
     }
 
 
